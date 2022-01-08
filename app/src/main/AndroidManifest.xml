@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pizzeria">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Pizzeria">
+        <activity
+            android:name=".FragmentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TestActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GenderSelectionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FirebaseDBService"
+            android:exported="true" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UserProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ContactUsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SavedCardItem"
+            android:exported="true" />
+        <activity
+            android:name=".OrderHistoryItem"
+            android:exported="true" />
+        <activity
+            android:name=".IdCardModel"
+            android:exported="true" />
+        <activity
+            android:name=".CurrentOrderItem"
+            android:exported="true" />
+        <activity
+            android:name=".CurrentOrderActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CardItem"
+            android:exported="true" />
+        <activity
+            android:name=".MyCurrentOrdersActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MenuItem"
+            android:exported="true" />
+        <activity
+            android:name=".OrdersHistoryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".QRCodeFragment"
+            android:exported="true" />
+        <activity
+            android:name=".OrderDoneActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PaymentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UserMenuOrderActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BottomSheetSelectedItemDialog"
+            android:exported="true" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SignInActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
